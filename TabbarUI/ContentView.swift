@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        TabView(selection: .constant(1)) {
+        TabView(selection: .constant(0)) {
             Text("Deneme1")
                 .tabItem(
                     "Anasayfa",
